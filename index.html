@@ -218,7 +218,28 @@
             opacity: 0.7;
             font-size: 14px;
         }
-    </style>
+    
+        /* Large displays: the shell was pinned at 900px, which on a 2560px
+           monitor reads as a narrow column adrift in empty space. This sheet is
+           all px, so the root font size is left alone; instead the shell and the
+           display type grow together — widening alone just stretches the gaps.
+           The card grids are auto-fit, so they fill the extra width themselves. */
+        @media (min-width: 1500px) {
+            .container { max-width: 1280px; padding: 56px 32px; }
+            .hero { padding: 80px 20px; }
+            .hero-icon { font-size: 96px; }
+            .hero h1 { font-size: 58px; }
+            .hero .tagline { font-size: 25px; }
+            .app-store-btn { font-size: 20px; padding: 17px 46px; }
+            .pricing-section h2, .free-section h2 { font-size: 34px; }
+        }
+        @media (min-width: 2000px) {
+            .container { max-width: 1500px; }
+            .hero-icon { font-size: 108px; }
+            .hero h1 { font-size: 66px; }
+            .hero .tagline { font-size: 27px; }
+        }
+</style>
 </head>
 <body>
     <div class="container">
