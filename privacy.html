@@ -102,10 +102,10 @@
             </div>
 
             <p><strong>Effective Date:</strong> January 2025</p>
-            <p><strong>Last Updated:</strong> January 2025</p>
+            <p><strong>Last Updated:</strong> October 14, 2026</p>
 
             <div class="highlight">
-                <strong>Summary:</strong> TintCalc Pro respects your privacy. We collect minimal data, store everything locally on your device, and never sell your information to third parties.
+                <strong>Summary:</strong> TintCalc Pro respects your privacy. Your estimates and customer details stay on your device (and your own iCloud, if you turn it on). We collect only anonymous usage statistics, which you can switch off, and we never sell your information to third parties.
             </div>
 
             <h2>1. Information We Collect</h2>
@@ -115,7 +115,27 @@
                 <li><strong>Settings:</strong> Your app preferences and custom pricing are stored locally.</li>
                 <li><strong>iCloud Sync (Optional):</strong> If enabled, your data syncs to your personal iCloud account.</li>
                 <li><strong>Subscription Info:</strong> Apple handles all payment processing. We only receive confirmation of your subscription status.</li>
+                <li><strong>Anonymous Usage Statistics:</strong> see the next section. You can switch them off at any time.</li>
             </ul>
+
+            <h2>Anonymous Usage Statistics</h2>
+            <p>To find out which features help and what breaks, TintCalc Pro sends anonymous usage statistics to our own server (hosted on Supabase). No third-party analytics or advertising SDK is used. This data is <strong>not linked to you</strong> and is <strong>not used for tracking</strong>.</p>
+            <p><strong>What is sent:</strong></p>
+            <ul>
+                <li>A random installation ID created by the app (it is deleted when you delete the app)</li>
+                <li>Device model, iOS version and app version</li>
+                <li>Language, region and time zone</li>
+                <li>Accessibility settings (for example, larger text or VoiceOver)</li>
+                <li>When a session starts and ends, and the last screen you were on</li>
+                <li>App events, as counts and categories only: an estimate was saved (and how many windows it has), an estimate was sent (by email, text or share), cuts were optimized, a film roll was added, a backup was exported or restored</li>
+                <li>Paywall views and plan taps, purchase and restore events (plan type and period only)</li>
+                <li>Review-prompt requests</li>
+                <li>Crash and performance reports from Apple's MetricKit</li>
+            </ul>
+            <p><strong>What is never sent:</strong> customer names, emails, phone numbers or addresses, measurements, prices, photos, notes, or anything else you type or create; your name, email or phone; your location; the advertising identifier (IDFA) or vendor identifier (IDFV); prices you paid, receipts or transaction IDs. Your IP address is not stored or used.</p>
+            <p><strong>Retention:</strong> usage statistics are kept for 13 months, crash and performance reports for 6 months.</p>
+            <p><strong>Turn it off:</strong> Settings → Privacy → Share Usage Data. When it is off, nothing is collected or sent, and any data waiting on the device is deleted.</p>
+            <p><strong>Delete your data:</strong> copy your Installation ID from Settings → Privacy and email it to us at <a href="mailto:essentialdevteam@gmail.com">essentialdevteam@gmail.com</a>. We will delete everything linked to that ID.</p>
 
             <h2>2. How We Use Your Information</h2>
             <p>Your data is used exclusively to:</p>
@@ -123,6 +143,7 @@
                 <li>Provide the app's core functionality (creating estimates)</li>
                 <li>Sync your data across your devices (if iCloud is enabled)</li>
                 <li>Verify your subscription status</li>
+                <li>Improve the app using anonymous usage statistics (see above)</li>
             </ul>
 
             <h2>3. Data Storage & Security</h2>
@@ -131,15 +152,16 @@
                 <li><strong>Locally</strong> on your device using iOS secure storage</li>
                 <li><strong>In iCloud</strong> (optional) using Apple's encrypted cloud infrastructure</li>
             </ul>
-            <p>We do not have access to your data. Your information never passes through our servers.</p>
+            <p>We do not have access to your estimates, customers or settings. They never pass through our servers. The only data that reaches us is the anonymous usage statistics described above.</p>
 
             <h2>4. Third-Party Services</h2>
             <p>TintCalc Pro uses the following third-party services:</p>
             <ul>
                 <li><strong>Apple App Store:</strong> For subscription management and payments</li>
                 <li><strong>Apple iCloud:</strong> For optional data synchronization</li>
+                <li><strong>Supabase:</strong> Hosts our own server that receives the anonymous usage statistics</li>
             </ul>
-            <p>These services are governed by Apple's privacy policy.</p>
+            <p>Apple's services are governed by Apple's privacy policy.</p>
 
             <h2>5. Data Sharing</h2>
             <div class="highlight">
@@ -148,7 +170,8 @@
                     <li>Sell your personal information</li>
                     <li>Share your data with advertisers</li>
                     <li>Track your location</li>
-                    <li>Collect analytics about your usage</li>
+                    <li>Use third-party analytics or advertising trackers</li>
+                    <li>Link usage statistics to your identity</li>
                 </ul>
             </div>
 
