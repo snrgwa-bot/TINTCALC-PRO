@@ -102,7 +102,7 @@
             </div>
 
             <p><strong>Effective Date:</strong> January 2025</p>
-            <p><strong>Last Updated:</strong> October 14, 2026</p>
+            <p><strong>Last Updated:</strong> October 16, 2026</p>
 
             <div class="highlight">
                 <strong>Summary:</strong> TintCalc Pro respects your privacy. Your estimates and customer details stay on your device (and your own iCloud, if you turn it on). We collect only anonymous usage statistics, which you can switch off, and we never sell your information to third parties.
@@ -114,6 +114,8 @@
                 <li><strong>Estimate Data:</strong> Customer names, contact info, and measurements you enter are stored locally on your device.</li>
                 <li><strong>Settings:</strong> Your app preferences and custom pricing are stored locally.</li>
                 <li><strong>iCloud Sync (Optional):</strong> If enabled, your data syncs to your personal iCloud account.</li>
+                <li><strong>Camera &amp; Photos:</strong> The camera is used only when you scan a film-roll serial number or take a photo of a window, a wall or a roll label. Photos are stored inside the app on your device (not in your Photos library), and in your own export file or iCloud backup if you make one. They are never sent to us.</li>
+                <li><strong>Location:</strong> Only when you tap "Use Current Location" in a job's address, the app asks iOS for your position once to fill in the address, using Apple Maps. We never receive or store your location.</li>
                 <li><strong>Subscription Info:</strong> Apple handles all payment processing. We only receive confirmation of your subscription status.</li>
                 <li><strong>Anonymous Usage Statistics:</strong> see the next section. You can switch them off at any time.</li>
             </ul>
@@ -128,7 +130,8 @@
                 <li>Accessibility settings (for example, larger text or VoiceOver)</li>
                 <li>When a session starts and ends, and the last screen you were on</li>
                 <li>App events, as counts and categories only: an estimate was saved (and how many windows it has), an estimate was sent (by email, text or share), cuts were optimized, a film roll was added, a backup was exported or restored</li>
-                <li>Paywall views and plan taps, purchase and restore events (plan type and period only)</li>
+                <li>Paywall views and plan taps; purchase, restore, renewal, plan-change, cancellation and refund events, with the plan (product ID and period) and simple counts such as how many sessions and paywall views came before a purchase. Never the price you paid, receipts or transaction IDs.</li>
+                <li>Subscription status (free, trial or Pro, plan period, whether it renews)</li>
                 <li>Review-prompt requests</li>
                 <li>Crash and performance reports from Apple's MetricKit</li>
             </ul>
@@ -159,6 +162,7 @@
             <ul>
                 <li><strong>Apple App Store:</strong> For subscription management and payments</li>
                 <li><strong>Apple iCloud:</strong> For optional data synchronization</li>
+                <li><strong>Apple Maps (MapKit):</strong> Address suggestions and look-up while you type a job address</li>
                 <li><strong>Supabase:</strong> Hosts our own server that receives the anonymous usage statistics</li>
             </ul>
             <p>Apple's services are governed by Apple's privacy policy.</p>
@@ -180,7 +184,7 @@
             <ul>
                 <li><strong>Access:</strong> View all your data within the app</li>
                 <li><strong>Export:</strong> Export your data at any time</li>
-                <li><strong>Delete:</strong> Delete all data from Settings → Data Management</li>
+                <li><strong>Delete:</strong> Delete all data from Settings → Data Management (this also clears your iCloud copy if iCloud sync is on)</li>
                 <li><strong>Portability:</strong> Export and import your data freely</li>
             </ul>
 
